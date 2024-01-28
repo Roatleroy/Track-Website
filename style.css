@@ -1,0 +1,389 @@
+
+body{
+  margin:0px;
+  padding: 0px;
+ background: linear-gradient(45deg, lightblue, turquoise, rgb(255, 197, 91));
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 50px 1fr 70px;
+  align-items: center;
+  background-color: white;
+  color: black;
+  padding: 1vh 2vh 1vh 2vh;
+  border-bottom: 1px solid black;
+  z-index: 200;
+  position: relative;
+}
+
+.container2 { position:relative; }
+
+.container2 video {
+    position:relative;
+    z-index:0;
+}
+
+.overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
+
+.three-dots{
+position: relative;
+	
+}
+.three-dots:hover{
+	cursor:pointer;
+}
+
+.three-dots:hover .list-item{
+		display:block;
+}
+
+.list-item{
+	position: absolute;
+	display: none;
+	background-color: rgba(255,255,255,0.50);
+	padding-top: 25px;
+	z-index: 100;
+	margin:0;
+	border-radius: 10px;
+}
+
+.list-item ul{
+	list-style: none;
+	padding-left: 5px;
+	padding-right: 100px;
+}
+
+.list-item ul li a{
+	text-decoration: none;
+	padding-left: 9px;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	padding-right: 50px;
+	color: #3D3D3D;
+	font-size: 25px;
+	border-radius: 5px;
+	margin-left: 20px;
+}
+.list-item ul li{
+	margin-top: 10px;
+}
+
+.list-item ul li a:hover{
+	background-color: white;
+}
+
+.nollia-logo{
+font-family: georgia;
+font-size: 20px;
+padding-bottom: 2px;
+}
+
+.haven{
+	width: 8vh;
+}
+
+
+.gray{
+	background-color: gray;
+	height: auto;
+	border: solid thin;
+	align-content: center;
+}
+
+.gray-Prayer{
+	background-color: gray;
+	height: 50vh;
+	border: solid thin;
+	position:relative;
+	padding-top: 6vh;
+}
+
+.gray-WillowCove{
+	background-color: gray;
+	height: auto;
+	border: solid thin;
+	align-content: center;
+}
+
+.gray-News{
+	
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-gap: 20px;
+	
+	background-color: gray;
+	height: auto;
+	border: solid thin;
+	position:relative;
+}
+
+.GroupPatio{
+	margin-top: 5vh;
+	margin-left: 5vh;
+	
+	border-radius: 10px;
+	
+	grid-column-start: 1;
+	grid-column-end: 2;
+	
+	grid-row-start: 1;
+	grid-row-end: 2;
+
+	
+}
+.GroupCar{
+	margin-top: 5vh;
+	margin-left: 5vh;
+	
+	
+	border-radius: 10px;
+	
+	grid-column-start: 1;
+	grid-column-end: 2;
+	
+	grid-row-start: 2;
+	grid-row-end: 3;
+
+}
+
+.News-Paragraph1{
+	grid-column-start: 2;
+	grid-column-end: 3;
+	
+	grid-row-start: 1;
+	grid-row-end: 2;
+
+	color: Ivory;
+	
+	font-size: 2.5vh;
+	
+	padding-left: 10vh;
+	
+	padding-top: 10vh;
+	
+}
+
+.News-Paragraph2{
+	grid-column-start: 2;
+	grid-column-end: 3;
+	
+	grid-row-start: 2;
+	grid-row-end: 3;
+
+	color: ivory;
+	
+	font-size: 2.5vh;
+	
+	padding-left: 10vh;
+	
+	padding-top: 10vh;
+	
+}
+
+.News-Paragraph3{
+	
+	grid-column-start: 1;
+	grid-column-end: 2;
+	
+	grid-row-start: 3;
+	grid-row-end: 4;
+	
+	color: black;
+	
+	font-size: 2.5vh;
+	
+	padding-left: 10vh;
+	
+	padding-top: 10vh;
+}
+	
+.WillowCove{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-bottom: 10vh;
+}
+.WillowCove2{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-bottom: 10vh;
+	margin-top: 10vh;
+}
+
+.WillowCove-Logo{
+	border-radius: 10px;
+	margin-top: 3%;
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+	margin-bottom: 10vh;
+}
+
+
+.Retreat{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	background-color: gray;
+	height: auto;
+	border: solid thin;
+	position:relative;
+}
+
+.haven-paragraph{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	
+	grid-row-start: 2;
+	grid-row-end: 3;
+	
+	text-align: center;
+	padding-left: 20vh;
+	padding-right: 20vh;
+}
+
+.WillowCove{
+	
+	
+}
+/*Services Page*/
+
+.Services{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	height: 80vh;
+  	position:relative; 
+ 	background-color: gray;
+  	border: solid thin;
+	align-items: center;
+}
+.Services img{
+	border-radius: 10px;
+	width: 50vh;
+	transition: .5s;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.Services img:hover{
+	transform: scale(1.1);
+	box-shadow: 25px 25px 20px;
+	transition: .5s;
+	cursor: pointer;
+}
+
+.Services-Text1{
+	padding-left: auto;
+	padding-right: auto;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	margin-left: auto;
+	margin-right: auto;
+}
+.Services-Text2{
+	padding-left: auto;
+	padding-right: auto;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	margin-left: auto;
+	margin-right: auto;
+}
+.Services-Text3{
+	padding-left: auto;
+	padding-right: auto;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1{
+	font-family: Georgia;
+	color: #D3E6F3;
+}
+
+.Pray-Image{
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+
+.Barn-Image{
+	grid-column-start: 2;
+	grid-column-end: 3;
+}
+
+.Sky-Image{
+	grid-column-start: 3;
+	grid-column-end: 4;
+}
+
+a{
+	text-decoration: none;
+	color: #D3E6F3;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*Services Page End*/
+
+
+.peach{
+  display:grid;
+  grid-template-columns: 100px auto;
+  grid-template-rows: 50px;
+  background-color: white;
+  height: 150px;
+  
+}
+.peach .peach-items{
+	margin-top: 5%;
+	text-align:right;
+	margin-right: 2%;
+}
+.peach img{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+.fa {
+  border: 2px solid black;
+  padding: 5px 7px 5px 5px;
+  font-size: 15px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.fa-facebook {
+  background: transparent;
+  color: black;
+}
+
+.fa-twitter {
+    background: transparent;
+  color: black;
+  }
+
+.fa-youtube{
+  background: transparent;
+ color: black;
+}
+
+.fa-instagram{
+    background: transparent;
+    color: black;
+}
